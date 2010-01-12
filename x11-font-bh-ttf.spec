@@ -1,6 +1,6 @@
 Name: x11-font-bh-ttf
-Version: 1.0.0
-Release: %mkrel 7
+Version: 1.0.1
+Release: %mkrel 1
 Summary: Xorg X11 font bh-ttf
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -24,8 +24,8 @@ Xorg X11 font bh-ttf
 %setup -q -n font-bh-ttf-%{version}
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/TTF
+./configure --prefix=/usr --x-includes=%{_includedir}\
+	    --x-libraries=%{_libdir} --with-fontdir=%_datadir/fonts/TTF
 
 %make
 
