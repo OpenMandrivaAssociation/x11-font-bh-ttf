@@ -5,7 +5,8 @@ Summary: Xorg X11 font bh-ttf
 Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-bh-ttf-%{version}.tar.bz2
-License: CHECK
+# We may not modify the software!
+License: Bigelow & Holmes Font License
 BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
 BuildRequires: fontconfig
