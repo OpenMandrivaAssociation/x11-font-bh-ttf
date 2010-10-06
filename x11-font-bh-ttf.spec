@@ -1,5 +1,5 @@
 Name: x11-font-bh-ttf
-Version: 1.0.1
+Version: 1.0.2
 Release: %mkrel 1
 Summary: Xorg X11 font bh-ttf
 Group: Development/X11
