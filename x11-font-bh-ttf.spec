@@ -51,3 +51,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc COPYING
 %_datadir/fonts/TTF/luxi*.ttf
+/usr/etc/fonts/conf/conf.avail/42-luxi-mono.conf
+/usr/etc/fonts/conf/conf.d/42-luxi-mono.conf
